@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const BASE_URL = 'http://localhost:5000';
+const BASE_URL = 'https://stockpro-backend-production-8344.up.railway.app';
 
 const STATUS_CFG = {
   pending:   { color:'#f59e0b', glow:'rgba(245,158,11,0.4)',  grad:'linear-gradient(135deg,#f59e0b,#f97316)', label:'Pending'   },

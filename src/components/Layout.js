@@ -29,7 +29,7 @@ export default function Layout({ onLogout, children, currentPage, onNavigate, us
   }, [isMobile, sidebarOpen]);
 
   const fetchAlerts = () => {
-    fetch('http://localhost:5000/api/products', { headers })
+    fetch('https://stockpro-backend-production-8344.up.railway.app/api/products', { headers })
       .then(r => r.json())
       .then(data => { if (Array.isArray(data)) setAlerts(data.filter(p => p.quantity <= p.min_quantity)); })
       .catch(() => {});

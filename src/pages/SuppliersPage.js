@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import CambodiaMap from '../components/CambodiaMap';
 
-const BASE_URL  = 'http://localhost:5000';
+const BASE_URL  = 'https://stockpro-backend-production-8344.up.railway.app';
 const PAGE_SIZE = 8;
 
 const CAT_COLORS = {

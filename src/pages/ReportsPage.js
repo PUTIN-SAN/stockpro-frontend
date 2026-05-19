@@ -8,7 +8,7 @@ import { Bar, Doughnut } from 'react-chartjs-2';
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, ArcElement, Tooltip, Legend);
 
-const BASE_URL = 'http://localhost:5000';
+const BASE_URL = 'https://stockpro-backend-production-8344.up.railway.app';
 
 // ✅ Product image helper
 const getProductImage = (id) => localStorage.getItem(`productImg_${id}`) || null;

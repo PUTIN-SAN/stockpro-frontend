@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 
-const API = 'http://localhost:5000/api/auth';
+const API = 'https://stockpro-backend-production-8344.up.railway.app/api/auth';
 function getToken() { return localStorage.getItem('token') || ''; }
 
 // ── Toast ──────────────────────────────────────────

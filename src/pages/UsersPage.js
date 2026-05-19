@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const BASE_URL = 'http://localhost:5000';
+const BASE_URL = 'https://stockpro-backend-production-8344.up.railway.app';
 
 // ✅ Load avatar តាម user ID ពី localStorage
 function getUserAvatar(userId) {

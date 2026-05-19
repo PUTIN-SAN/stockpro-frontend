@@ -8,7 +8,7 @@ import {
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, BarElement, ArcElement, CTooltip, Legend, Filler);
 
-const BASE_URL = 'http://localhost:5000';
+const BASE_URL = 'https://stockpro-backend-production-8344.up.railway.app';
 
 const AVATAR_GRADIENTS = [
   'linear-gradient(135deg, #14b8a6, #6366f1)',
