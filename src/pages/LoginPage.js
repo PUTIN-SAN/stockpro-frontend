@@ -11,7 +11,7 @@ function LoginPage({ onLogin }) {
     setError('');
     setLoading(true);
     try {
-      const res = await fetch('/api/auth/login', {
+const res = await fetch('https://stockpro-backend-production-8344.up.railway.app/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
