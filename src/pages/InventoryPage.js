@@ -4,7 +4,7 @@ import {
   getFilteredRowModel, getPaginationRowModel, flexRender,
 } from '@tanstack/react-table';
 
-const BASE_URL = 'http://localhost:5000';
+const BASE_URL = 'https://stockpro-backend-production-8344.up.railway.app';
 
 function getProductImage(productId) {
   return localStorage.getItem(`productImg_${productId}`) || null;
