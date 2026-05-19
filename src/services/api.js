@@ -1,5 +1,5 @@
 import axios from 'axios';
-
+  // v2
 const api = axios.create({
  baseURL: 'https://stockpro-backend-production-8344.up.railway.app/api',
   headers: { 'Content-Type': 'application/json' },
